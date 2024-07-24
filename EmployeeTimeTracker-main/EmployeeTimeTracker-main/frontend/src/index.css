@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    -ms-overflow-style: none;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+ 
+  .shadow{
+    box-shadow: 10px 10px 10px rgba(15, 15, 15, 0.25);
+  }
+
+  body{
+    @apply bg-gray-900
+  }
